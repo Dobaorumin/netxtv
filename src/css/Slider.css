@@ -1,0 +1,73 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.1s ease-in-out;
+  background-image: url("../Images/pc-gaming.jpg");
+  animation: banner 28s infinite linear;
+}
+.banner-content {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 22, 40, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content h1 {
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.banner-content a {
+  text-decoration: none;
+  color: #fff;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.banner-content a:hover {
+  background-color: white;
+  color: #333;
+}
+
+@keyframes banner {
+  0% {
+    background-image: url("../Images/pc-gaming.jpg");
+  }
+  25% {
+    background-image: url("../Images/pc-gaming.jpg");
+  }
+  26% {
+    background-image: url("../Images/tv.jpg");
+  }
+  50% {
+    background-image: url("../Images/tv.jpg");
+  }
+  51% {
+    background-image: url("../Images/tlfn.jpg");
+  }
+  75% {
+    background-image: url("../Images/tlfn.jpg");
+  }
+  76% {
+    background-image: url("../Images/monitor.jpg");
+  }
+  100% {
+    background-image: url("../Images/monitor.jpg");
+  }
+}
+
+@media screen and (max-width:463px){
+    .banner{
+        height: calc(100vh - 31.48px);
+    }
+}
