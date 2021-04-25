@@ -43,7 +43,7 @@ export default function NavBar() {
         color="inherit"
       >
         <Badge badgeContent={2} color="secondary" style={{margin:"-4px"}}>
-          <ShoppingCart fontsize="small" color="primary" />
+          <ShoppingCart fontSize="small" color="primary" />
         </Badge>
       </IconButton>
       <nav className="NavContainer">

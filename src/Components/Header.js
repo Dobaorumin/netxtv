@@ -1,5 +1,5 @@
-import "../css/Slider.css";
-export default function ImageSlider() {
+import "../css/Header.css";
+export default function Header() {
   return (
     <div className="banner">
       <div className="banner-content">

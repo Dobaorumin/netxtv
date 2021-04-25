@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   media: {
-    height: 0,
+    height: "300px",
     paddingTop: "56.25%",
   },
 
@@ -57,26 +57,30 @@ export default function GetProductos() {
   }, []);
   return (
     <>
+    <h1>Productos</h1>
       {product.map((data) => {
+        const image = `http://localhost:1337${data.Imagen[0].formats.small.url}`
         console.log(data);
         return (
-          <Card className={classes.root}>
+        <>
+          <Card key={data.id} className={classes.root}>
             <CardHeader
               action={
                 <Typography
                   className={classes.action}
                   variant="h5"
-                  color="textSecondarty"
+                  color="textSecondary"
                 >
-                  {50}
+                  {`${data.Precio}€`}
                 </Typography>
               }
               title={data.Titulo}
-              subheader={data.fecha}
+              subheader={data.created_at.split("T")[0]}
             />
-            <CardMedia className={classes.media} />
+            <CardMedia className={classes.media} image={image}/>
             <CardContent />
           </Card>
+          </>
         );
       })}
     </>

@@ -126,17 +126,17 @@ section {
     font-size: 2rem;
 }
 
-.image__overlay a{
+.image__overlay button{
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 9px 20px;
     border: 1px solid white;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out;
 }
-.image__overlay a:hover {
-    background-color: white;
-    color: #333;
+.image__overlay button:hover {
+    background-color: black;
+    color: white;
   }
   h2{
       top:5;

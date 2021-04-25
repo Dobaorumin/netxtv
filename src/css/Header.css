@@ -39,7 +39,7 @@
   color: #333;
 }
 
-@keyframes banner {
+/** @keyframes banner {
   0% {
     background-image: url("../Images/pc-gaming.jpg");
   }
@@ -65,6 +65,7 @@
     background-image: url("../Images/monitor.jpg");
   }
 }
+**/
 
 @media screen and (max-width:463px){
     .banner{
