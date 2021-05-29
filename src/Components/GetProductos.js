@@ -62,7 +62,7 @@ export default function GetProductos({
 }) {
   const classes = useStyles();
   const [expanded, setExpanded] = useState(false);
-  const [{ localCarrito }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
 
   const handleExpandClick = () => {
     setExpanded(!expanded);

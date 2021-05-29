@@ -9,7 +9,7 @@ import { useStateValue } from "../utils/StateProvider";
 import BarraAnuncio from "../Components/BarraAnuncio";
 
 export default function SingleProduct() {
-  const [{ localCarrito }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
 
   const [productInfo, setProductInfo] = useState(null);
 

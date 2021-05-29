@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function CheckOut({item}) {
-  const [{ localCarrito }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
   const classes = useStyles();
 
   const deleteFromBasket = () =>
