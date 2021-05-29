@@ -17,3 +17,15 @@
     padding: 8px 20px;
     color:#fff;
 }
+
+.barraAnuncio-container a{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+@media screen and (max-width: 448px){
+    .a{
+        display:none;
+    }
+}

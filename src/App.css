@@ -3,4 +3,6 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  scroll-behavior: smooth;
 }

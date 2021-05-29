@@ -1,11 +1,10 @@
 import "../css/Footer.css"
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 export default function Footer() {
     return (
         <div className="footer-container">
             <div className="footer-content">
-                <a href="/ubicacion">¿Donde Estamos?</a>
-                <a href="/instagram">Instagram</a>
-                <a href="/contactos">Contacto</a>
+                <a href="https://www.linkedin.com/in/christiandobao/"><LinkedInIcon/></a>
             </div>
         </div>
     )

@@ -39,34 +39,6 @@
   color: #333;
 }
 
-/** @keyframes banner {
-  0% {
-    background-image: url("../Images/pc-gaming.jpg");
-  }
-  25% {
-    background-image: url("../Images/pc-gaming.jpg");
-  }
-  26% {
-    background-image: url("../Images/tv.jpg");
-  }
-  50% {
-    background-image: url("../Images/tv.jpg");
-  }
-  51% {
-    background-image: url("../Images/tlfn.jpg");
-  }
-  75% {
-    background-image: url("../Images/tlfn.jpg");
-  }
-  76% {
-    background-image: url("../Images/monitor.jpg");
-  }
-  100% {
-    background-image: url("../Images/monitor.jpg");
-  }
-}
-**/
-
 @media screen and (max-width:463px){
     .banner{
         height: calc(100vh - 31.48px);

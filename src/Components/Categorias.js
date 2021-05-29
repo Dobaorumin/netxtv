@@ -4,9 +4,9 @@ import {Link} from "react-router-dom"
 export default function Categorias() {
   return (
     <section>
-      <h1 className="title">Categorias</h1>
+      <div id="comprar" className="title">Categorias</div>
       <div className="container">
-      <Link to="/"className="categoria-card TV" href="/">
+      <Link to="/categorias/televisores"className="categoria-card TV" href="/">
       <div className="wrap">
         <div className="image__img">
         </div>
@@ -16,7 +16,7 @@ export default function Categorias() {
         </div>
       </div>
       </Link>
-      <Link to="/" className="categoria-card Portatil" href="/">
+      <Link to="/categorias/portatiles" className="categoria-card Portatil" href="/">
       <div className="wrap">
         <div className="image__img"></div>
         <div className="image__overlay">
@@ -25,7 +25,7 @@ export default function Categorias() {
         </div>
       </div>
       </Link>
-      <Link to="/" className="categoria-card Gaming" href="/">
+      <Link to="/categorias/ordenadores" className="categoria-card Gaming" href="/">
       <div className="wrap">
         <div className="image__img"></div>
         <div className="image__overlay">
@@ -34,7 +34,7 @@ export default function Categorias() {
         </div>
       </div>
       </Link>
-      <Link to="/" className="categoria-card Monitor" href="/">
+      <Link to="/categorias/monitores" className="categoria-card Monitor" href="/">
       <div className="wrap">
         <div className="image__img"></div>
         <div className="image__overlay">
@@ -43,7 +43,7 @@ export default function Categorias() {
         </div>
       </div>
       </Link>
-      <Link to="/" className="categoria-card Movil" href="/">
+      <Link to="/categorias/moviles" className="categoria-card Movil" href="/">
       <div className="wrap">
         <div className="image__img"></div>
         <div className="image__overlay">

@@ -5,16 +5,16 @@
     position: relative;
 }
 .footer-content{
+    padding:20px;
     text-decoration: none;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .footer-content a{
     display: flex;
-    padding-top: 40px;
-    padding-right: 8rem;
+    padding-top: 20px;
     color:white;
     text-decoration: none;
 
