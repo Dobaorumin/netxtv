@@ -35,13 +35,13 @@ export default function Carrito() {
         {localCarrito?.length === 0 ? null : <div className="cart-out">
           <div className="products-out">
             {localCarrito?.map((item) => (
-              <CheckOut key={item.id} item={item}></CheckOut>
+              <CheckOut key={item._id} item={item}></CheckOut>
             ))}
           </div>
           <div className="cart-total">
             <p>
               <span>Precio Total:</span>
-              <span>{getBasketTotal(localCarrito)}€</span>
+              <span>{getBasketTotal(localCarrito)} €</span>
             </p>
             <p>
               <span>Número de productos:</span>

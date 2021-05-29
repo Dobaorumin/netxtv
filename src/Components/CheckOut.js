@@ -38,10 +38,10 @@ export default function CheckOut({item}) {
         <h3 className="product-name">{item?.title}</h3>
         <h4 className="product-price">Precio: {item?.price}€</h4>
         <p className="product-quantity">
-          Cantidad <input value={item?._id} name="cantidad"></input>
+          Cantidad <input type="number"name="cantidad"></input>
         </p>
-        <IconButton className={classes.btn} arial-label="Remove product">
-          <DeleteIcon fontSize="default" onClick={deleteFromBasket} />
+        <IconButton onClick={deleteFromBasket} className={classes.btn} arial-label="Remove product">
+          <DeleteIcon fontSize="default" />
         </IconButton>
       </div>
     </div>
