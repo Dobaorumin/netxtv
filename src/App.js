@@ -3,8 +3,8 @@ import Home from './pages/home';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Carrito from './pages/Carrito';
 import SingleProduct from './pages/SingleProductPage';
-import CheckOut from "./CheckoutForm/Checkout"
 import ProductOnGrid from "./Components/ProductOnGrid"
+import Checkout from './CheckoutForm/Checkout';
 function App() {
   return (
     <>
@@ -35,7 +35,7 @@ function App() {
             <Home></Home>
         </Route>
         <Route exact path="/Pago">
-            <CheckOut/>
+            <Checkout/>
         </Route>
       </Switch>
     </Router>
