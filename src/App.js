@@ -34,7 +34,7 @@ function App() {
         <Route exact path="/contacto">
             <Home></Home>
         </Route>
-        <Route exact path="/Pago">
+        <Route exact path="/pago">
             <Checkout/>
         </Route>
       </Switch>

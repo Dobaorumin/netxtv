@@ -61,11 +61,11 @@ export default function NavBar() {
       </NavBtn>
     </Nav>
     <BarsContent active={isBurgerOpen}>
-        <a href="/categorias/televisores"className="burgerContent" to="#!">SmartTv</a>
-        <a href="/categorias/portatiles"className="burgerContent" to="#!">Portatiles</a>
-        <a href="/categorias/ordenadores"className="burgerContent" to="#!">Ordenadores</a>
-        <a href="/categorias/moviles" className="burgerContent" to="#!">SmartPhones</a>
-        <a href="/categorias/monitores"className="burgerContent" to="#!">Monitores</a>
+        <a href="/categorias/televisores"className="burgerContent" to="/categorias/televisores">SmartTv</a>
+        <a href="/categorias/portatiles"className="burgerContent" to="/categorias/portatiles">Portatiles</a>
+        <a href="/categorias/ordenadores"className="burgerContent" to="/categorias/ordenadores">Ordenadores</a>
+        <a href="/categorias/moviles" className="burgerContent" to="/categorias/moviles">SmartPhones</a>
+        <a href="/categorias/monitores"className="burgerContent" to="/categorias/monitores">Monitores</a>
         </BarsContent>
     </div>
   );

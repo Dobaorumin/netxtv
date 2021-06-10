@@ -47,7 +47,7 @@ export default function Carrito() {
               <span>Número de productos:</span>
               <span>{localCarrito?.length}</span>
             </p>
-            <a href="/Pago">Pagar</a>
+            <a to="/pago" href="/pago">Pagar</a>
           </div>
         </div>}
       </div>
