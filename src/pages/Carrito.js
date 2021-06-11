@@ -7,6 +7,7 @@ import { useStateValue } from "../utils/StateProvider";
 import { getBasketTotal } from "../utils/reducer";
 import { AddShoppingCart } from "@material-ui/icons";
 import { IconButton } from "@material-ui/core";
+import {Link} from "react-router-dom"
 
 
 export default function Carrito() {
@@ -47,7 +48,7 @@ export default function Carrito() {
               <span>Número de productos:</span>
               <span>{localCarrito?.length}</span>
             </p>
-            <a to="/pago" href="/pago">Pagar</a>
+            <Link to="/pago" href="/pago">Pagar</Link>
           </div>
         </div>}
       </div>
